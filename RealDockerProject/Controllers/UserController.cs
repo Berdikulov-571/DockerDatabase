@@ -17,6 +17,7 @@ namespace RealDockerProject.Controllers
             _context = context;
         }
 
+
         [HttpGet]
         public async ValueTask<IActionResult> GetAll()
         {
