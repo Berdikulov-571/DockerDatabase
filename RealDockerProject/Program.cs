@@ -17,6 +17,7 @@ namespace RealDockerProject
 
             var app = builder.Build();
 
+
             app.UseSwagger();
             app.UseSwaggerUI();
                     
